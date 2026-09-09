@@ -1,0 +1,13 @@
+name = "Vanilla+"
+author = "Grayson Gantek"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "bae77c62a1791774960f9d68b0f2305ce1b541bd49d88321db81117fe97b7bcf"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "26.1"

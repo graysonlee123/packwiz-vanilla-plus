@@ -1,0 +1,128 @@
+# Vanilla+
+
+Personal and opinionated Minecraft Vanilla+ modpack, distributable via [packwiz](https://github.com/packwiz/packwiz).
+
+Focused on [Prism launcher](https://prismlauncher.org/).
+
+## Development
+
+Use Nix to create a ephemeral shell with the `packwiz` binary. Alternatively, install `packwiz` manually.
+
+```shell
+# Development shell
+nix develop
+
+# Build Modrinth export file (one-shot)
+nix develop --command packwiz modrinth export
+```
+
+## Installation/Updates
+
+There are two methods for getting up-and-running: automatic (recommended) and manual.
+
+### Automatic
+
+Use [packwiz-installer-bootstrap](https://github.com/packwiz/packwiz-installer-bootstrap) to enable automatic installation/updates at game launch.
+
+1. Create instance in Prism, matching target Minecraft version and Fabric loader version. Alternatively, follow the manual steps, then proceed to step 2.
+2. Get [latest boostrap jar](https://github.com/packwiz/packwiz-installer-bootstrap) and drop it into the instance's root `minecraft/` folder.
+3. Add Prism pre-launch command, defined below (instance → Edit → Settings → Custom Commands → Pre-launch Command).
+4. Launch, and the install/updates should automatically take place.
+
+Prism pre-launch command:
+
+```shell
+# Local repository (useful during testing)
+"$INST_JAVA" -jar packwiz-installer-bootstrap.jar file:///home/gray/repos/me/packwiz-vanilla-plus/pack.toml
+
+# Remote repository (useful for sharing)
+"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/graysonlee123/packwiz-vanilla-plus/main/pack.toml
+```
+
+`$INST_JAVA` is injected by Prism.
+
+### Manual
+
+1. Run `packwiz modrinth export`, and notate created `.mrpack` file's path.
+2. In Prism launcher, "Add Instance" > "Import". Then, select your `.mrpack` file.
+3. Click "OK".
+
+## Configuration
+
+Configuration files included in this modpack are cherry-picked and limited. Configuration files not modified from their defaults are not included. Mod configuration files are only created if they are missing; existing files are never replaced.
+
+### REI
+
+Changes from default (`config/roughlyenoughitems/`):
+
+**config.json5**:
+
+- `focusSearchFieldKeybind`: `unknown` → `enter`
+- `appearance.recipeScreenType`: `UNSET` → `ORIGINAL`
+- `appearance.layout.searchFieldLocation`: `CENTER` → `BOTTOM_SIDE`
+- `appearance.recipeBorder`: `DEFAULT` → `NONE`
+- `appearance.horizontalEntriesBoundariesColumns`: `50` → `12`
+- `appearance.verticalEntriesBoundariesRows`: `1000` → `24`
+- `appearance.leftSideMobEffects`: `false` → `true`
+- `advanced.tooltips.appendModNames`: `true` → `false`
+
+**favorites.json5**:
+
+- `favorites`: added utility favorites — gamemode (survival, creative), weather (clear, rain, thunder), time (morn, noon, evening, night)
+
+### Litematica
+
+TODO
+
+### Mod Menu
+
+Changes from default (`config/modmenu.json`):
+
+- `compact_list`: `false` → `true`
+- `mods_button_style`: `classic` → `replace_realms`
+
+### Scribble
+
+Changes from default (`config/scribble.client.json`):
+
+- `pages_to_show`: `1` → `2`
+
+### MiniHUD
+
+TODO
+
+### Distant Horizons
+
+TODO
+
+### ItemSwapper
+
+TODO
+
+## Keybinds
+
+Keybinds live in vanilla `options.txt`, not per-mod config, so they are documented here rather than shipped.
+
+Format: default → custom.
+
+### Vanilla
+
+- Chat: `T` → `Enter`
+- Toggle Perspective: `F5` → `Mouse 5`
+
+### Xaero's World Map
+
+- Open World Map: `M` → `` ` ``
+
+### Zoomify
+
+- Zoom: `C` → `Z`
+
+### Light Overlay
+
+- Toggle: `F9` → `Mouse 4`
+
+### Presence Footsteps
+
+- Debug Toggle: `Z` → unbound
+

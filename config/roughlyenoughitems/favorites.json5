@@ -1,0 +1,10 @@
+{
+	"favorites": [
+		"{type:\"roughlyenoughitems:weather\",weather:\"CLEAR\"}",
+		"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
+		"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
+		"{mode:\"MORN\",type:\"roughlyenoughitems:time\"}"
+	],
+	"hiddenFavorites": [],
+	"displays": []
+}
