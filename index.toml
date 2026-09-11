@@ -5,6 +5,10 @@ file = "config/freecam.json"
 hash = "a5a0fc02967c1a8f527fe16e88414dec50bbb3a1e80f9bc19923917b7a59ad5c"
 
 [[files]]
+file = "config/litematica.json"
+hash = "4c00c7992d8535837d37d2e0026cb002a86d6d61ca432c64f070eee464ba5f98"
+
+[[files]]
 file = "config/modmenu.json"
 hash = "88ee3f26d92f143fca95dd8dd62d840557835815548c616b8c561448d156a5b9"
 
@@ -18,7 +22,7 @@ hash = "d325a06093ee59daa382aa62c684734a5f5dd147e550e33d4bc718ac8cf5f743"
 
 [[files]]
 file = "config/roughlyenoughitems/favorites.json5"
-hash = "71cdb3c5510f3269e696fc33f19b4606455749b87fb76e6a440a440d12d8801c"
+hash = "745cd64d2aa69573b74a237484cef98549cbb54681e222d72b9d58faa44118fe"
 
 [[files]]
 file = "config/scribble.client.json"
