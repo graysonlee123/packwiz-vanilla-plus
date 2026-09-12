@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CHANGELOG.md"
+hash = "71c3d77df6dc6c7605e71c716fb23f1ca60bdbb8f86990a37bc053d464d29053"
+
+[[files]]
+file = "config/DistantHorizons.toml"
+hash = "d43f5783c21e0f045a68bee1e2b2731965e821717461693fe059d8bc0138da51"
+
+[[files]]
+file = "config/betterclouds-v1.json"
+hash = "d778d1db68b92c455cca237e27bcc39c100e965e47caaf7d1b84e05ad693f473"
+
+[[files]]
 file = "config/freecam.json"
 hash = "a5a0fc02967c1a8f527fe16e88414dec50bbb3a1e80f9bc19923917b7a59ad5c"
 
@@ -35,12 +47,12 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "23b374420d37f6707b0f2b1709705af55b9712aba11f8735b56e0aadb286fb9b"
+hash = "1e2712b1a612fa13cfa42485caaee08afc2ab8c82a5555134aa4b94e8d1d1279"
 metafile = true
 
 [[files]]
 file = "mods/better-clouds.pw.toml"
-hash = "f1acf5547f02440dd8d5921e7bdc4b54bb1524dca9efae0ad19c31fee057943c"
+hash = "4a53b0066812531666d78f9f36c83f3eaa20a622d4102f91db9ac635d398e297"
 metafile = true
 
 [[files]]
@@ -50,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/blur-plus.pw.toml"
-hash = "5a3b1ceb3b56949b9ff397277558cf336e9fde08395d8cbcc7effd70ae0c2f1b"
+hash = "dd558c0a3a5317d461589337cc04f33527e2191ede4dbd680ab9df594aad5e62"
 metafile = true
 
 [[files]]
@@ -95,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-particles.pw.toml"
-hash = "b04276fd57eadcae0bdaba8de6c2e7f77ccf27d268ef21f6f490cc67d28a4763"
+hash = "17fe2b9ba1675b36dc43c6e99cdb36436cdba4eceeb31d17bd451f0275778be2"
 metafile = true
 
 [[files]]
@@ -105,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "a414658ea9ed3ff6f7c3a9122e9471e857ae0540640b654e35a1345039c7392a"
+hash = "31d9aec9490ee7a7d84ab1e505be06021b1cc5eae48a68622464bda7b05cda3d"
 metafile = true
 
 [[files]]
@@ -145,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "137f9f7268efee46f378498be772d7828ac77ba239294c7051a782c9f0ee56ae"
+hash = "9d031aefb9acf62b4c7c6b6f53d4427db1996de071895c06d921c2977c7d7e48"
 metafile = true
 
 [[files]]
@@ -175,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "ebe917fde984b2b44139c02c36886452d529989677a0639c21688290c00a1d67"
+hash = "6a487f3191e67284ec51e3c884d6fe30eac1cec120869c690d6eccc2db9dfc39"
 metafile = true
 
 [[files]]
@@ -190,17 +202,17 @@ metafile = true
 
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
-hash = "b99a7098a4c9c1af146ee77d42a5a7442673052e023bb4971f2be5f1292da481"
+hash = "2aea2968c0302317b824a4f3c6d6863aba3da5aa275a4b098c0abe0fff5d8493"
 metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "546965f1ab52fc464c51e36c52305fef231837c22454d22447b8423e379502cd"
+hash = "76f0c3b0f97c781fab964ec383b5031d780814e63abe7c456354187deaafaae2"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "722007a08065b27337e39edbbdb6a34067bbbe523f36a968d9861b9714144368"
+hash = "ee002e5d6ad62150afe62bf8a6f254f56630e2ae9d414131f89cf2676664a493"
 metafile = true
 
 [[files]]
@@ -225,7 +237,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "64eeb473c4b4fa8d06b1377201cf7fc53fa04834d83c37240e99a323a53a149e"
+hash = "5df9067a60471de05776a57d2b77a40436b635904271d9556ef73c81decd56f5"
 metafile = true
 
 [[files]]

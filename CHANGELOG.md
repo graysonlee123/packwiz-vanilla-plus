@@ -12,10 +12,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Sodium Extra.
+- Better Clouds config (`config/betterclouds-v1.json`).
+- Distant Horizons config (`config/DistantHorizons.toml`).
+- README documentation for Better Clouds, Distant Horizons, Litematica, and video settings.
 
 ### Changed
 
 - Updated to Minecraft 26.1.2.
+- Updated mods: Architectury API, Better Clouds, Blur+, Inventory Particles, Jade, Mod Menu, Reese's Sodium Options, Shulker Box Tooltip, Sodium, Sodium Extra, Xaero's World Map.
 
 ## [1.0.0]
 

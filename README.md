@@ -72,7 +72,14 @@ Changes from default (`config/roughlyenoughitems/`):
 
 ### Litematica
 
-TODO
+Changes from default (`config/litematica.json`):
+
+- `customSchematicBaseDirectory`: machine-specific path → `""` (left blank; set per-instance)
+- `ignoreExistingFluids`: `false` → `true`
+- `ignoreCropAge`: `false` → `true`
+- `renderBlocksAsTranslucent`: `false` → `true`
+- `schematicOverlayEnableOutlines`: `true` → `false`
+- `ghostBlockAlpha`: `0.5` → `0.4`
 
 ### Mod Menu
 
@@ -91,13 +98,48 @@ Changes from default (`config/scribble.client.json`):
 
 TODO
 
+### Better Clouds
+
+Changes from default (`config/betterclouds-v1.json`):
+
+- `yRange`: `64.0` → `42.0`
+- `yOffset`: `0.0` → `24.0`
+- `sparsity`: `0.0` → `0.48`
+- `spacing`: `5.25` → `3.0`
+- `sizeXZ`: `16.0` → `19.0`
+- `sizeY`: `8.0` → `12.0`
+- `travelSpeed`: `0.03` → `0.04`
+- `windSpeedFactor`: `0.8` → `1.0`
+- `colorVariationFactor`: `0.8` → `1.0`
+- `samplingScale`: `1.0` → `1.09`
+- `scaleFalloffMin`: `0.25` → `1.0`
+- `presets`: `[]` → added shader presets (BSL, Chocapic13, Complementary, Kappa, etc.)
+
 ### Distant Horizons
 
-TODO
+Changes from default (`config/DistantHorizons.toml`):
+
+- `common.logging.logRendererGLEventToChat`: `ERROR` → `DISABLED`
+- `client.advanced.autoUpdater.enableAutoUpdater`: `true` → `false`
+- `client.advanced.graphics.overrideVanillaGraphicsSettings`: `true` → `false`
+- `client.advanced.graphics.experimental.renderingEngine`: `AUTO` → `OPEN_GL` (required for Better Clouds to render correctly alongside DH)
+- `client.advanced.graphics.genericRendering.enableCloudRendering`: `true` → `false` (Better Clouds handles cloud rendering)
 
 ### ItemSwapper
 
 TODO
+
+## Video Settings
+
+Video/graphics settings live in vanilla `options.txt`, not per-mod config, so they are documented here rather than shipped.
+
+Format: default → custom.
+
+- `chunkSectionFadeInTime`: `0.75` → `0.0`
+- `enableVsync`: `true` → `false`
+- `graphicsPreset`: `fancy` → `custom`
+- `cloudRange`: `64` → `128`
+- `renderDistance`: `16` → `8`
 
 ## Keybinds
 
