@@ -47,6 +47,22 @@ Prism pre-launch command:
 2. In Prism launcher, "Add Instance" > "Import". Then, select your `.mrpack` file.
 3. Click "OK".
 
+## Migrating Between Instances
+
+When moving to a new instance (new Minecraft version, fresh install, or another machine), copy the following from the old instance's `minecraft/` folder to the new one. Mods and shipped configs are handled by packwiz and should not be copied.
+
+- `saves/` — singleplayer worlds (includes stats, advancements, and per-world Distant Horizons LODs).
+- `schematics/` — Litematica schematics (see `customSchematicBaseDirectory`).
+- `xaero/` — Xaero's World Map data (per world/server).
+- `Distant_Horizons_server_data/` — Distant Horizons LOD data for multiplayer servers.
+- `resourcepacks/` — resource packs (e.g. VanillaTweaks) referenced by `options.txt`.
+- `servers.dat` — multiplayer server list.
+- `options.txt` — keybinds and video/personal settings (not shipped by the pack).
+- `screenshots/` — optional.
+- `config/` — only for mods whose config is not shipped by the pack; shipped configs install automatically.
+
+Do not copy `mods/`, `logs/`, `crash-reports/`, or `.mixin.out/`.
+
 ## Configuration
 
 Configuration files included in this modpack are cherry-picked and limited. Configuration files not modified from their defaults are not included. Mod configuration files are only created if they are missing; existing files are never replaced.
