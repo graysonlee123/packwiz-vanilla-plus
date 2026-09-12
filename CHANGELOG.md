@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.1]
+
+### Changed
+
+- Disabled Distant Horizons textured LODs (`enableTexturedLods`) to work around a beta bug streaking MC 26.1.2 leaf LODs.
+
 ## [2.0.0]
 
 ### Added

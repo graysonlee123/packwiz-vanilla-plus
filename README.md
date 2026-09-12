@@ -140,10 +140,17 @@ Changes from default (`config/DistantHorizons.toml`):
 - `client.advanced.graphics.overrideVanillaGraphicsSettings`: `true` → `false`
 - `client.advanced.graphics.experimental.renderingEngine`: `AUTO` → `OPEN_GL` (required for Better Clouds to render correctly alongside DH)
 - `client.advanced.graphics.genericRendering.enableCloudRendering`: `true` → `false` (Better Clouds handles cloud rendering)
+- `client.advanced.graphics.texture.enableTexturedLods`: `true` → `false` (works around DH 3.2.0-b beta bug streaking MC 26.1.2 two-layer leaf LODs)
 
 ### ItemSwapper
 
 TODO
+
+## Resource Packs
+
+Resource packs are not shipped with the pack. Download and drop them into the instance's `resourcepacks/` folder, then enable in-game.
+
+- [VanillaTweaks](https://vanillatweaks.net/share#OCyRBD) — regenerate the exact selection from this share link.
 
 ## Video Settings
 

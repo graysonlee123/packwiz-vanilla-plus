@@ -1,8 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".claude/settings.local.json"
+hash = "eb154df755849d13ccfd80299405cb12d2abe15c3a75cfcaf50a297da88e8e01"
+
+[[files]]
 file = "config/DistantHorizons.toml"
-hash = "d43f5783c21e0f045a68bee1e2b2731965e821717461693fe059d8bc0138da51"
+hash = "18d9ecb389cf2856c9554fb341e2b150a15809c006c67df4463df18406be46fb"
 
 [[files]]
 file = "config/betterclouds-v1.json"
