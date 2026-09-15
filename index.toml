@@ -9,6 +9,10 @@ file = "config/DistantHorizons.toml"
 hash = "18d9ecb389cf2856c9554fb341e2b150a15809c006c67df4463df18406be46fb"
 
 [[files]]
+file = "config/ambientfog/biome_fog.json"
+hash = "58d140e52384d2f02f93743c83baf7f6efdf1c0a380bd67439628b2b6376d06a"
+
+[[files]]
 file = "config/betterclouds-v1.json"
 hash = "d778d1db68b92c455cca237e27bcc39c100e965e47caaf7d1b84e05ad693f473"
 
@@ -48,6 +52,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "1e2712b1a612fa13cfa42485caaee08afc2ab8c82a5555134aa4b94e8d1d1279"
+metafile = true
+
+[[files]]
+file = "mods/atmospherics.pw.toml"
+hash = "7a1c068b555bf06fb101ac87f8c1e3fbec650dab95b7cccbb64137304be5022e"
 metafile = true
 
 [[files]]
@@ -103,11 +112,6 @@ metafile = true
 [[files]]
 file = "mods/freecam.pw.toml"
 hash = "ad732e009733a82b675cd1e23f49174ffe639ebcacd26408b3dcb0f84ab264f7"
-metafile = true
-
-[[files]]
-file = "mods/inventory-particles.pw.toml"
-hash = "17fe2b9ba1675b36dc43c6e99cdb36436cdba4eceeb31d17bd451f0275778be2"
 metafile = true
 
 [[files]]
@@ -183,6 +187,11 @@ metafile = true
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "8c272ec6b1bd2c3b526920d224af6b769d5fc03c473fb721e50e7481a6d094e2"
+metafile = true
+
+[[files]]
+file = "mods/punchy-fpa.pw.toml"
+hash = "0ed61027df83669e3db2730c74c7f222d69338b0f48cfacf7305e0d70e9ef03b"
 metafile = true
 
 [[files]]

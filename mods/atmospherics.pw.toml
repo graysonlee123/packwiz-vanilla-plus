@@ -1,0 +1,13 @@
+name = "ATMOSPHERICS"
+filename = "atmospherics-2.6.6-mc-26.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ft2cYBpB/versions/LeQKXuNM/atmospherics-2.6.6-mc-26.1.jar"
+hash-format = "sha512"
+hash = "860c98413b9396372a43ad9fcc8a7b76d0fcfeefcf98fa2df43f43bb482fc3046ae1d3a73e5670d03bac16df941ef6571a0a2252c53bd3f24989c63234b4fa34"
+
+[update]
+[update.modrinth]
+mod-id = "ft2cYBpB"
+version = "LeQKXuNM"

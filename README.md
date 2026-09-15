@@ -146,6 +146,10 @@ Changes from default (`config/DistantHorizons.toml`):
 
 TODO
 
+### Atmospherics
+
+Changes from default are intentionally skipped here, as the configuration changes are huge.
+
 ## Resource Packs
 
 Resource packs are not shipped with the pack. Download and drop them into the instance's `resourcepacks/` folder, then enable in-game.
