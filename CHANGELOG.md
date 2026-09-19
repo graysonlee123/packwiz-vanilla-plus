@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0]
+
+### Added
+
+- Voxy.
+- Voxy config (`config/voxy-config.json`): disabled `use_environmental_fog`.
+
+### Changed
+
+- Downgraded Sodium to 0.9.1.
+
+### Removed
+
+- Distant Horizons (mod + config).
+- Atmospherics (mod + config).
+- Punchy.
+
 ## [2.1.0]
 
 ### Added

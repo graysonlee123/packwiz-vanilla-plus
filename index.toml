@@ -5,14 +5,6 @@ file = ".claude/settings.local.json"
 hash = "eb154df755849d13ccfd80299405cb12d2abe15c3a75cfcaf50a297da88e8e01"
 
 [[files]]
-file = "config/DistantHorizons.toml"
-hash = "18d9ecb389cf2856c9554fb341e2b150a15809c006c67df4463df18406be46fb"
-
-[[files]]
-file = "config/ambientfog/biome_fog.json"
-hash = "58d140e52384d2f02f93743c83baf7f6efdf1c0a380bd67439628b2b6376d06a"
-
-[[files]]
 file = "config/betterclouds-v1.json"
 hash = "d778d1db68b92c455cca237e27bcc39c100e965e47caaf7d1b84e05ad693f473"
 
@@ -45,6 +37,10 @@ file = "config/scribble.client.json"
 hash = "49f2ca900240f2c3d831a682439d10083276256590b9c558cf13052f50286276"
 
 [[files]]
+file = "config/voxy-config.json"
+hash = "f2d282f6d5d217c7a6c09ce7ba18cf16feba9a058746119b332110dab7f3a9f1"
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "785e74169e884a0535517140796a8448a831abf7f7dfa29cf6326b178c0dcf48"
 metafile = true
@@ -52,11 +48,6 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "1e2712b1a612fa13cfa42485caaee08afc2ab8c82a5555134aa4b94e8d1d1279"
-metafile = true
-
-[[files]]
-file = "mods/atmospherics.pw.toml"
-hash = "7a1c068b555bf06fb101ac87f8c1e3fbec650dab95b7cccbb64137304be5022e"
 metafile = true
 
 [[files]]
@@ -82,11 +73,6 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
-metafile = true
-
-[[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "e052cb3685baecae837c574cebd658ebc54ededf24186bb152194a78b7eded7d"
 metafile = true
 
 [[files]]
@@ -190,11 +176,6 @@ hash = "8c272ec6b1bd2c3b526920d224af6b769d5fc03c473fb721e50e7481a6d094e2"
 metafile = true
 
 [[files]]
-file = "mods/punchy-fpa.pw.toml"
-hash = "0ed61027df83669e3db2730c74c7f222d69338b0f48cfacf7305e0d70e9ef03b"
-metafile = true
-
-[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "6a487f3191e67284ec51e3c884d6fe30eac1cec120869c690d6eccc2db9dfc39"
 metafile = true
@@ -221,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "ee002e5d6ad62150afe62bf8a6f254f56630e2ae9d414131f89cf2676664a493"
+hash = "c75f5e9a285cf6195065ba85e73081990f990de6efc7e2262a6eafe12d3dc277"
 metafile = true
 
 [[files]]
@@ -232,6 +213,11 @@ metafile = true
 [[files]]
 file = "mods/status-effect-bars.pw.toml"
 hash = "1ad93d29e2c2d3d79dd88260dda65b1c422279a64aedbb18f4c7f124c218f9d8"
+metafile = true
+
+[[files]]
+file = "mods/voxy.pw.toml"
+hash = "a5f5e80be1db5192dbe02b728c02f459758e58423e4fcc33df51300352a3eef7"
 metafile = true
 
 [[files]]

@@ -51,10 +51,9 @@ Prism pre-launch command:
 
 When moving to a new instance (new Minecraft version, fresh install, or another machine), copy the following from the old instance's `minecraft/` folder to the new one. Mods and shipped configs are handled by packwiz and should not be copied.
 
-- `saves/` — singleplayer worlds (includes stats, advancements, and per-world Distant Horizons LODs).
+- `saves/` — singleplayer worlds (includes stats, advancements).
 - `schematics/` — Litematica schematics (see `customSchematicBaseDirectory`).
 - `xaero/` — Xaero's World Map data (per world/server).
-- `Distant_Horizons_server_data/` — Distant Horizons LOD data for multiplayer servers.
 - `resourcepacks/` — resource packs (e.g. VanillaTweaks) referenced by `options.txt`.
 - `servers.dat` — multiplayer server list.
 - `options.txt` — keybinds and video/personal settings (not shipped by the pack).
@@ -131,24 +130,14 @@ Changes from default (`config/betterclouds-v1.json`):
 - `scaleFalloffMin`: `0.25` → `1.0`
 - `presets`: `[]` → added shader presets (BSL, Chocapic13, Complementary, Kappa, etc.)
 
-### Distant Horizons
-
-Changes from default (`config/DistantHorizons.toml`):
-
-- `common.logging.logRendererGLEventToChat`: `ERROR` → `DISABLED`
-- `client.advanced.autoUpdater.enableAutoUpdater`: `true` → `false`
-- `client.advanced.graphics.overrideVanillaGraphicsSettings`: `true` → `false`
-- `client.advanced.graphics.experimental.renderingEngine`: `AUTO` → `OPEN_GL` (required for Better Clouds to render correctly alongside DH)
-- `client.advanced.graphics.genericRendering.enableCloudRendering`: `true` → `false` (Better Clouds handles cloud rendering)
-- `client.advanced.graphics.texture.enableTexturedLods`: `true` → `false` (works around DH 3.2.0-b beta bug streaking MC 26.1.2 two-layer leaf LODs)
-
 ### ItemSwapper
 
 TODO
 
-### Atmospherics
 
-Changes from default are intentionally skipped here, as the configuration changes are huge.
+### Voxy
+
+- `use_environmental_fog`: `true` → `false`
 
 ## Resource Packs
 
