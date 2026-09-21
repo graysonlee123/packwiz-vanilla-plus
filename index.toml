@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".claude/settings.local.json"
-hash = "eb154df755849d13ccfd80299405cb12d2abe15c3a75cfcaf50a297da88e8e01"
-
-[[files]]
 file = "config/betterclouds-v1.json"
 hash = "d778d1db68b92c455cca237e27bcc39c100e965e47caaf7d1b84e05ad693f473"
 
