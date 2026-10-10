@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/ambientfog/biome_fog.json"
+hash = "58d140e52384d2f02f93743c83baf7f6efdf1c0a380bd67439628b2b6376d06a"
+
+[[files]]
 file = "config/betterclouds-v1.json"
 hash = "d778d1db68b92c455cca237e27bcc39c100e965e47caaf7d1b84e05ad693f473"
 
@@ -47,6 +51,11 @@ hash = "1e2712b1a612fa13cfa42485caaee08afc2ab8c82a5555134aa4b94e8d1d1279"
 metafile = true
 
 [[files]]
+file = "mods/atmospherics.pw.toml"
+hash = "44e7692d07de3e36183f4606656acf88b6b28df40e6f89e2e2f848cac1f11c5f"
+metafile = true
+
+[[files]]
 file = "mods/better-clouds.pw.toml"
 hash = "4a53b0066812531666d78f9f36c83f3eaa20a622d4102f91db9ac635d398e297"
 metafile = true
@@ -72,6 +81,11 @@ hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
 metafile = true
 
 [[files]]
+file = "mods/durability-tooltip.pw.toml"
+hash = "8042c53c96f768c60c09a03c04458b8ebaf4cbdb54ef2adaca46daf7a75e0634"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "46c13077e518b312d993a6853c3cd046b724cfc48664481ec0b651ed308aa292"
 metafile = true
@@ -94,6 +108,11 @@ metafile = true
 [[files]]
 file = "mods/freecam.pw.toml"
 hash = "ad732e009733a82b675cd1e23f49174ffe639ebcacd26408b3dcb0f84ab264f7"
+metafile = true
+
+[[files]]
+file = "mods/held-item-info.pw.toml"
+hash = "62b4398ba178efecba4aced610039b1003a8cc82ce5931e3fe0f6541f69a6870"
 metafile = true
 
 [[files]]
@@ -209,6 +228,11 @@ metafile = true
 [[files]]
 file = "mods/status-effect-bars.pw.toml"
 hash = "1ad93d29e2c2d3d79dd88260dda65b1c422279a64aedbb18f4c7f124c218f9d8"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "c5732c88ac4eb0cef6fcb4134a5b5262c997b6763274a177f543b4fa2b2e7505"
 metafile = true
 
 [[files]]

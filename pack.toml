@@ -1,12 +1,12 @@
 name = "Vanilla+"
 author = "Grayson Gantek"
-version = "2.2.0"
+version = "2.3.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2872b35f0a0cbae08c2e13b7e7084fba4f85cceed094574e6fd2b1bd5b244213"
+hash = "88a2fa38f3207d5034ef3a7c1550b4a7e7b9773152b77e2b29fc90c98890fb3c"
 
 [versions]
 fabric = "0.19.5"

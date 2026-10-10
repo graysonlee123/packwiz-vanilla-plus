@@ -134,6 +134,9 @@ Changes from default (`config/betterclouds-v1.json`):
 
 TODO
 
+### Atmospherics
+
+Changes from default are intentionally skipped here, as the configuration changes are huge.
 
 ### Voxy
 
