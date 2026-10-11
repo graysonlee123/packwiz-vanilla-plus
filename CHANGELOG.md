@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.0]
+
+### Added
+
+- BetterF3.
+- BetterF3 config (`config/betterf3.json`): smaller font, no animations, trimmed modules and lines.
+
 ## [2.3.0]
 
 ### Added

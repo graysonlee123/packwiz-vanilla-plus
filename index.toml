@@ -9,6 +9,10 @@ file = "config/betterclouds-v1.json"
 hash = "d778d1db68b92c455cca237e27bcc39c100e965e47caaf7d1b84e05ad693f473"
 
 [[files]]
+file = "config/betterf3.json"
+hash = "04e2658b797c13a6713d43965ea0fc6937992b29148035a6cbc53a2f259ea1fd"
+
+[[files]]
 file = "config/freecam.json"
 hash = "a5a0fc02967c1a8f527fe16e88414dec50bbb3a1e80f9bc19923917b7a59ad5c"
 
@@ -63,6 +67,11 @@ metafile = true
 [[files]]
 file = "mods/better-mount-hud.pw.toml"
 hash = "156e8688835a92ff6f1a199b77c0f9a16f3d5b15fd9c311cd7dd8a5b1b4d8b4d"
+metafile = true
+
+[[files]]
+file = "mods/betterf3.pw.toml"
+hash = "270675632e20b3f27d79a4633356fac3b2bf7335aa250a7894f53a4490e61b29"
 metafile = true
 
 [[files]]

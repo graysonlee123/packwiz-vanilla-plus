@@ -142,6 +142,19 @@ Changes from default are intentionally skipped here, as the configuration change
 
 - `use_environmental_fog`: `true` → `false`
 
+### BetterF3
+
+Changes from default (`config/betterf3.json`):
+
+- `general.animations`: `true` → `false`
+- `general.fontScale`: `1.0` → `0.8`
+- `general.space_modules`: `false` → `true`
+- Left modules removed: `graphics`, `server`, `sound`, `help`, `empty`, `miscleft`
+- Right modules removed: `empty`
+- Right module order: `system`, `miscright`, `target` → `miscright`, `system`, `target`
+- `coords` lines disabled: `velocity`, `horizontal_velocity`, `absolute_velocity`
+- `location` lines disabled: `dimension`, `light`, `light_server`, `highest_block`, `highest_block_server`, `day_ticks`
+
 ## Resource Packs
 
 Resource packs are not shipped with the pack. Download and drop them into the instance's `resourcepacks/` folder, then enable in-game.
